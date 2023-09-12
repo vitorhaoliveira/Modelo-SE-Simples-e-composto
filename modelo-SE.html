@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função SE</title>
+</head>
+<body>
+    
+    <h1>Função SE simples e composta</h1>
+    <div id="resultado"></div>
+
+    <script>
+        let idade = prompt("Qual é a sua idade?");
+        let retorno = ""
+
+        if (idade > 17) {
+            retorno = "Maior"
+        }
+
+        else {
+            retorno = "Menor";
+        }
+
+
+        document.getElementById("resultado").innerHTML = retorno + " de idade"
+    </script>
+
+    <h1>Estudando a função SE</h1>
+    <div id="meunome"></div>
+    <div id="meusigno"></div> 
+
+    <p>Nome: <span id="nome"></span></p>
+    <p>Signo: <span id="signo"></span></p>
+
+    <script>
+        let nome = prompt("Olá qual é o seu nome?");
+        let signo = prompt("Olá qual é o seu signo?");
+
+
+        document.getElementById("nome").innerHTML = nome;
+        document.getElementById("signo").innerHTML = signo;
+    </script>
+
+</body>
+</html>
